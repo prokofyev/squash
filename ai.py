@@ -4,7 +4,7 @@ class AIController:
     def __init__(self, paddle):
         self.paddle = paddle
         self.deadzone = 10        # Зона покоя, чтобы не дёргался
-        self.speed_factor = 0.85  # Множитель скорости для баланса
+        self.speed_factor = 0.75  # Множитель скорости для баланса
 
     def update(self, ball):
         """Двигает ракетку ИИ, отслеживая мяч."""
